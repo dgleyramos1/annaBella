@@ -1,16 +1,29 @@
-body, h1, a, p {
-    margin: 0;
-    text-decoration: none;
+body{
+    background-image: url('img/fundo.png');
+    font: 16px Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container{
+    width: 900px;
 }
 
-body{
-    text-align: center;
-    background-image: url('img/fundo.png');
-}
 #navegacao{
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #c5c5b2;
+    padding: 18px;
+}
+
+#conteudo{
+    background: #e8e8d9;
+    padding: 10px;
+}
+a {
+    color: #4b566a;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+.centralizar{
+    text-align: center;
 }
